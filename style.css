@@ -1,20 +1,35 @@
-/* table, td, th {
+ table, td, th {
     border: 1px solid black;
   }
   
   table {
     border-collapse: collapse;
+    height: 768px;
     width: 100%;
   }
   
-  th {
-    height: 70px;
-  } */
+
   
   #naglowek {
     background-color: red;
     text-align: center;
+    height: 50px;
+ 
   }
   #stopka {
+    background-color: antiquewhite;
     text-align: center;
+    height: 50px;
+  }
+  #left{
+   background-color: blue;
+  }
+  #right{
+    background-color:chartreuse;
+  }
+
+  #left, #right {
+    text-align: center;
+    height: 600px;
+   width: 50%;
   }
