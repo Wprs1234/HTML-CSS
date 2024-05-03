@@ -2,17 +2,17 @@
 table {
     border-collapse: collapse;
     background-color: aqua;
-    width: 100%;
+    width: 785px;
 
     
 }
 
-td{
-    border: 1px solid aqua;
-    text-align: center;
+
+tr{
+    margin: 300px;
+    width:100%;
 }
 
 #header, #main, #footer {
-    margin-top: 30px;
     width: 100%;
 }

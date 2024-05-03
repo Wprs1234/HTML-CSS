@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Przykładowa Strona CSS Grid z Odstępami</title>
+<style>
+    body, html {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+    .container {
+        display: grid;
+        grid-template-rows: 20vh 1fr 20vh; /* 20vh na nagłówek i stopkę, reszta dla treści */
+        height: 100vh;
+        grid-gap: 20px; /* Odstęp między wierszami */
+    }
+    .header, .footer {
+        background-color: #87CEEB;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2em;
+    }
+    .main {
+        background-color: #4682B4;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 4em;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="header">Header</div>
+    <div class="main">Main</div>
+    <div class="footer">Footer</div>
+</div>
+</body>
+</html>

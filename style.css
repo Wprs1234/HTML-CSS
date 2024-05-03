@@ -23,13 +23,18 @@
   }
   #left{
    background-color: blue;
+   color: white;
   }
   #right{
     background-color:chartreuse;
+    text-align: center;
+  }
+  a {
+    color: white;
   }
 
   #left, #right {
-    text-align: center;
+    
     height: 600px;
    width: 50%;
   
