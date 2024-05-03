@@ -1,0 +1,18 @@
+
+table {
+    border-collapse: collapse;
+    background-color: aqua;
+    width: 100%;
+
+    
+}
+
+td{
+    border: 1px solid aqua;
+    text-align: center;
+}
+
+#header, #main, #footer {
+    margin-top: 30px;
+    width: 100%;
+}
